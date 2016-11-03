@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+     <!-- phonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+    
+    <!-- script -->
+    <script src="js/jQuery.js"></script>
+    <script src="js/Chart.js"></script>
+  
+
+</head>
+       
+        
+
+    <body>
+       
+
+<!-- График <div class="example">
+    
+    <canvas id="myChart" width="500" height="400"></canvas>
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь"],
+        datasets: [{
+            label: 'Доход',
+            data: [80, 45, 55, 54, 72, 54],
+            backgroundColor: [              
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }  ,   
+                         {
+            label: '#Оборот',
+            data: [100, 60, 80, 72, 84, 78],
+            backgroundColor: [              
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(153, 102, 255, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }, 
+                   
+                            {
+            label: '#Расходы',
+            data: [20, 15, 25, 18, 12, 24],
+            backgroundColor: [              
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 206, 86, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }
+                   
+                  
+                  ]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+    
+});
+    
+       
+   
+      </script> 
+        
+  
+    
+    
+</div> -->
+         <div class="container-fluid background-shapka">
+             <div class="logo">
+                 <div class="logo-text"><img src="img/logo.png" alt=""></div>
+             </div>
+             <div class="shapka-menu">
+                <div class="message"><img src="img/message.png" alt=""></div>
+
+                <span class="name_ava">Андрей Костаршен</span>
+                <div class="ava">
+                     <div class="ava-obhortka"><img src="img/ava.png" alt=""></div>
+                </div>
+                <div class="dropwodn_ava"><img src="img/dropdown-01.svg"  alt=""></div>
+             </div>
+         </div>
+         
+             <div class="sidebar">
+                 <ul class="navbar">
+                      <li class="menu-li"><a href="#"></a></li>
+                      <li class="menu-li"><a href="#"></a></li>
+                      <li class="menu-li"><a href="#"></a></li>
+                      <li class="menu-li"><a href="#"></a></li>
+                </ul>
+             </div>
+             
+                <div class="container">
+                     <div class="kroshku">
+                         <button class="button-kroshku"> Новый проект</button>
+                         <div class="kroshku-filt">
+                             <p class="kroshku-text">Показать проекты:</p>
+                             <ul>
+                                 <li class="kroshku-dropdown">Все</li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="project">
+                         <table class="project-table" cellspacing=0>
+                             <tr class="project-one-th">
+                                 <th></th>
+                                 <th class="th-left">Название проекта</th>
+                                 <th>Должны</th>
+                                 <th class="th-left">Deadline</th>
+                                 <th>Задачи</th>
+                                 <th></th>
+                             </tr>
+                             <tr class="project-one">
+                                 <td class="project-line-active"></td>
+                                  <td class="project-nazv">
+                                      <p class="project-nazv-project">Landing Page</p>
+                                      <p class="project-nazv-company">Izobud</p>
+                                  </td>
+                                   <td class="project-price">$250</td>
+                                    <td class="project-dealine"> 
+                                         <p class="project-day">27 Мая 2016</p>
+                                          <p class="project-day-left-red">3 дня осталось</p>
+                                      </td>
+                                     <td class="project-todo"><p class="project-todo-p">4</p></td>
+                                      <td class="project-more">
+                                          <table  class="project-more-table" cellspacing=2>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                             </tr>
+                              <tr class="project-one">
+                                 <td class="project-line-end"></td>
+                                  <td class="project-nazv">
+                                      <p class="project-nazv-project">Landing Page</p>
+                                      <p class="project-nazv-company">Izobud</p>
+                                  </td>
+                                   <td class="project-price-end">0</td>
+                                    <td class="project-dealine"> 
+                                         <p class="project-day">27 Мая 2016</p>
+                                          <p class="project-day-left">Завершен</p>
+                                      </td>
+                                     <td class="project-todo"><p class="project-todo-p-end">0</p></td>
+                                      <td class="project-more">
+                                             <table  class="project-more-table" cellspacing=2>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                             </tr>
+                              <tr class="project-one">
+                                 <td class="project-line-crush"></td>
+                                  <td class="project-nazv">
+                                      <p class="project-nazv-project">Landing Page</p>
+                                      <p class="project-nazv-company">Izobud</p>
+                                  </td>
+                                   <td class="project-price">$250</td>
+                                    <td class="project-dealine"> 
+                                         <p class="project-day">27 Мая 2016</p>
+                                          <p class="project-day-left">Завершен</p>
+                                      </td>
+                                     <td class="project-todo"><p class="project-todo-p-end">0</p></td>
+                                      <td class="project-more">
+                                              <table  class="project-more-table" cellspacing=2>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                             </tr>
+                              <tr class="project-one">
+                                 <td class="project-line-active"></td>
+                                  <td class="project-nazv">
+                                      <p class="project-nazv-project">Landing Page</p>
+                                      <p class="project-nazv-company">Izobud</p>
+                                  </td>
+                                   <td class="project-price">$250</td>
+                                    <td class="project-dealine"> 
+                                         <p class="project-day">27 Мая 2016</p>
+                                          <p class="project-day-left">Завершен</p>
+                                      </td>
+                                     <td class="project-todo"><p class="project-todo-p">4</p></td>
+                                      <td class="project-more">
+                                           <table  class="project-more-table" cellspacing=2>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="project-more-icon"></td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                             </tr>
+                            
+                         </table>
+                     </div>
+             </div>
+    
+    </body>
+</html>

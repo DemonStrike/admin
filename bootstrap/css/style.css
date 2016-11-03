@@ -1,0 +1,412 @@
+body {
+    background-color: #3C4452;
+    font-family: 'Didact Gothic', sans-serif;
+
+
+
+}
+.menu_background {
+    background-color:#4C5667;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer {
+    background-color:#4C5667;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #94A2B2;
+    
+}
+
+.logo{
+    color: #94A2B2;
+}
+
+.menu {
+ padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    border-radius: 0px;
+    height: 40px;
+}
+
+.button_success {
+    border-radius: 0px;
+    height: 40px;
+    background-color: #00c292;
+    color: #fff;
+}
+
+.button_success:hover {
+    background-color:#0BA783;
+    border-color: #0BA783;
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: #353c48;
+    color: #96a2b4;
+    border: 1px solid rgba(120, 130, 140, 0.2);
+}
+
+.btn-outline:hover {
+    background-color:#404753;
+    color: #96a2b4;
+    border: 1px solid rgba(120, 130, 140, 0.2);
+}
+
+
+.btn-link_project {
+    color: #01c0c8;
+}
+
+
+.btn-link_project:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link_project:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link_project:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.table {
+    color: #94A2B2;
+    border: 1px solid #424A56;
+}
+
+th {
+        border: 1px solid #424A56;
+    border-bottom: 1px solid #000;
+
+}
+
+tr {
+        border: 1px solid #424A56;
+}
+
+
+td {
+        border: 1px solid #424A56;
+}
+
+.i_close {
+    color: #E96F52;
+}
+
+.i_close:hover {
+    color: #e66141;
+}
+
+
+.i_edit {
+    color: #535b77;
+    padding-right: 15px;
+}
+
+.i_edit:hover {
+    color: #8292ac;
+}
+
+.i_message {
+     background-color: #03A9F7 ;
+    height: 27px;
+    line-height: 20px;
+    border-radius: 100px;
+    width: 27px;    
+}
+
+.i_message_null {
+     background-color: #4d5562 ;
+    height: 27px;
+    line-height: 20px;
+    border-radius: 100px;
+    width: 27px;
+}
+
+.i_deadline {
+    border-radius: 60px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 4px 12px 3px;
+    background-color: #E96F52;
+    height: 27px;
+    line-height: 20px;
+    margin-left: 15px;
+
+
+}
+
+.i_succses {
+      border-radius: 60px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 4px 12px 3px;
+    background-color: #00C292;
+    height: 27px;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.pagination_new {
+     color: #94A2B2;
+    border: 1px solid #424A56;
+}
+
+h3 {
+    color: #96a2b4;
+}
+
+.hr_bottom_line {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.28);
+    padding-bottom: 10px;
+}
+
+.container_add_new1 {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.container_add_new {
+    padding-left: 40px;
+}
+.nazv_project {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.drop_down_edit {
+ background-color: #353c48;
+    color: #999;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 45px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.drop_down_edit:hover {
+ background-color: #353c48;
+    color: #fff;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 45px;
+    width: 100%;
+    text-align: left;
+}
+
+.drop_down_edit:focus {
+ background-color: #353c48;
+    color: #fff;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 45px;
+    width: 100%;
+    text-align: left;
+}
+
+.drop_down_edit:active {
+ background-color: #353c48;
+    color: #fff;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 45px;
+    width: 100%;
+    text-align: left;
+}
+
+.opus_project {
+    height: 150px
+}
+
+.statistik_block_big {
+     background-color: #353c48;
+    color: #94A2B2;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 120px;
+    margin-top: 30px;
+}
+
+.statistik_block_big:hover {
+     background-color: #2d3138;
+    color: #9296a7;
+     border: 1px solid rgba(120, 130, 140, 0.2);
+    height: 120px;
+    margin-top: 30px;
+}
+
+.statistik_block_big_year {
+    height: 100%;
+border-right: 1px solid rgba(120, 130, 140, 0.2);
+font-size: 48px;
+    text-align: center;
+    line-height: 110px;
+}
+
+.statistik_block_big_table {
+    padding: 0px;
+    text-align: center;
+}
+
+.statistik_table {
+    text-align: center;
+    border: 0;
+    height: 119px;
+}
+
+
+.statistik_table td {
+    text-align: center;
+    border: 0;
+    border-right: 1px solid #4b4b4b;
+
+}
+
+
+.statistik_table_tr1 {
+    height: 40px;       
+        border: 0;
+}
+
+.statistik_table_tr2 {
+    height: 70px;
+    font-size: 28px;
+     border: 0;
+}
+
+.no_table_border{
+    border: 0;
+}
+
+.statistic_table_small_div {
+    height: 160px;
+    margin-top: 30px;
+}
+
+
+.statistic_table_small {
+    background-color: #353c48;
+}
+
+.statistic_table_small:hover {
+    background-color: #2d3138;
+}
+
+.statistic_table_small_td {
+    font-size: 18px;
+}
+
+.statistic_table_small_td_lite {
+    color: #717481;
+}
+
+.bold_td {
+    font-size: 15px;
+    color: aliceblue
+}
+
+.statistic_zaholovok {
+    font-size: 24px;
+}
+
+.statistic_month {
+    text-align: center;
+    font-size: 24px;
+    color: #94A2B2;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+
+}
+
+.statistic_table_summa {
+    background-color: #2d3138;
+    color: #ab8ce4;
+    font-size: 18px;
+    
+}
+
+.statistic_table_summa_nazv {
+    background-color: #2d3138;
+    color: #94A2B2;
+        font-size: 16px;
+}
+
+.big_price {
+    font-size: 48px;
+    padding: 20px;
+}
+
+.price {
+    color: #fff;
+    padding-top: 30px;
+}
+
+.price_oplacheno {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.price_valuta {
+    font-size: 48px;
+     padding: 20px;
+}
+
+.stoimost_project {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.modal_content {
+    width: 100%;
+    background-color: #353c48;
+    }
+
+.calendar {
+    font-size: 48px;
+     padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.price_calendar {
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 260px;
+    
+}
+
+.price_calendar2 {
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 180px;
+
+}
+
+.vazhnuje_silki {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tab-pane_my {
+    color: #96a2b4;
+    padding-top: 30px;
+}
+
+.pravka {
+    background-color: #353c48;
+    padding-left: 40px;
+    font-weight: 100;
+}
